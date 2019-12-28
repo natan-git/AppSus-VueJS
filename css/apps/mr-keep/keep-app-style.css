@@ -1,0 +1,310 @@
+/* -----------------trying to give background to keep app only----------------- */
+
+
+/* .keep-header-container {
+    background: #202124;
+}
+
+.input-and-list {
+    background: #202124;
+}
+
+.keep-list-container {
+    background: #202124;
+} */
+
+
+/* =========header======== */
+
+header {
+    width: 100%;
+}
+
+.icon {
+    color: rgb(238, 238, 238);
+    font-size: 2rem;
+}
+
+.filter-container input {
+    width: 16rem;
+    padding: 0.5rem;
+    border-style: none;
+    outline: 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgba(248, 210, 140, 0.753);
+    font-size: 1.2rem;
+    color: rgba(248, 210, 140, 0.911);
+    height: 1.7rem;
+}
+
+.filter-container select {
+    padding: 0.3rem;
+    border-radius: 1rem;
+}
+
+.filter-container button {
+    padding: 0.4rem;
+    width: 4rem;
+    border-radius: 1rem;
+    border-style: none;
+}
+
+.lens-icon {
+    width: 40px;
+}
+
+
+/* =========notes======== */
+
+.card-container {
+    color: rgb(238, 238, 238);
+    letter-spacing: 0.12rem;
+    font-size: 1.4rem;
+    margin: 2rem 1rem 0 1rem;
+    padding: 1rem;
+    min-width: 17rem;
+    max-width: 17rem;
+    min-height: 12rem;
+    border: 1px solid rgba(202, 202, 202, 0.5);
+    border-bottom: 1.5px solid rgba(248, 210, 140, 0.9);
+    border-top: 1.5px solid rgba(248, 210, 140, 0.6);
+    box-shadow: 12px 12px 5px rgb(27, 27, 27);
+    background: #2c2c2c;
+    border-radius: 0.5rem;
+}
+
+.card-container h1 {
+    overflow-wrap: break-word;
+    margin-bottom: 1rem;
+}
+
+.card-container img {
+    max-width: 15rem;
+    max-height: 10rem;
+    border-radius: .35rem;
+    margin-bottom: 1rem;
+}
+
+.card-container i {
+    margin-top: 0.5rem;
+}
+
+.pinColor {
+    color: rgba(255, 166, 0, 0.911);
+}
+
+
+/* ===========input /add keep============= */
+
+.input-container {
+    margin: 1rem auto;
+    border-radius: 0.5rem;
+    width: 42rem;
+    height: 3rem;
+    background: none;
+    border: none;
+    border-bottom: 1px dotted rgba(248, 210, 140, 0.808);
+    box-shadow: 0px 17px 21px -17px rgba(248, 210, 140, 0.87);
+    font-size: 1.2rem;
+}
+
+.input-container:hover {
+    cursor: pointer;
+}
+
+.input-container i {
+    margin: 0;
+}
+
+.input-icons i {
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+}
+
+.fa-font:hover {
+    color: #4386ff;
+}
+
+.fa-image:hover {
+    color: #ff7f7f;
+}
+
+.fa-video:hover {
+    color: #ffd400;
+    ;
+}
+
+.fa-list-ul:hover {
+    color: #a0e95d;
+    ;
+}
+
+.fa-notes-medical:hover {
+    color: rgba(255, 166, 0, 0.911);
+}
+
+.fa-notes-medical {
+    font-size: 1.7rem;
+}
+
+
+/* =========add keep inputs======== */
+
+.keep-input-box input {
+    width: 25rem;
+    margin: 1rem;
+    padding: 0.5rem;
+    outline: 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgba(248, 210, 140, 0.753);
+    font-size: 1.2rem;
+    color: rgba(248, 210, 140, 0.911);
+    height: 1.6rem;
+    line-height: 2.8rem;
+}
+
+.edit-txt-input {
+    width: 100%;
+    max-height: 5rem;
+    border: none;
+    outline: none;
+    background: none;
+    color: rgb(238, 238, 238);
+    letter-spacing: 0.12rem;
+    font-size: 1.2rem;
+}
+
+
+/* ===sing card colors=== */
+
+.color-box {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 0.2;
+    border: 1px solid white;
+}
+
+.colors-container {
+    margin-top: 1rem;
+}
+
+.setColor1 {
+    background-color: #84DD63;
+}
+
+.setColor2 {
+    background-color: #FF7F7F;
+}
+
+.setColor3 {
+    background-color: #C69BFF;
+}
+
+.setColor4 {
+    background-color: #F5D969;
+}
+
+.setColor5 {
+    background-color: rgb(100, 212, 184);
+}
+
+.setColor6 {
+    background-color: #2c2c2c;
+}
+
+.todos {
+    margin: 1rem;
+}
+
+.card-icons i {
+    margin-left: 1rem;
+    margin-right: 0.2rem;
+    cursor: pointer;
+}
+
+.video-note {
+    border: none;
+    border-radius: 0.3rem;
+    margin-bottom: 1rem;
+}
+
+
+/* -------smartphone-------- */
+
+@media (max-width: 768px) {
+    /* ------keep header----- */
+    .icon {
+        margin: 2rem;
+    }
+    /* .keep-header-container input {
+        width: 17rem;
+    } */
+    .input-container {
+        width: 30rem;
+    }
+    .keep-input-box {
+        width: 25rem;
+    }
+    .keep-input-box input {
+        width: 12rem;
+    }
+    .input-icons {
+        display: flex;
+    }
+    .logo {
+        display: none;
+    }
+    .keep-list-container {
+        padding: 0 2rem;
+    }
+}
+
+@media (max-width: 375px) {
+    /* ------keep header----- */
+    .icon {
+        margin: 2rem;
+    }
+    .keep-header-container input {
+        width: 12rem;
+        margin-left: 4rem;
+    }
+    .input-container {
+        width: 20rem;
+    }
+    .keep-input-box {
+        width: 25rem;
+    }
+    .keep-input-box input {
+        width: 8rem;
+    }
+    .input-icons {
+        display: flex;
+    }
+    img.lens-icon {
+        width: 10px;
+        height: 10px;
+    }
+}
+
+@media (max-width: 670px) {
+    .card-container {
+        min-width: 10rem;
+        max-width: 12rem;
+        min-height: 10rem;
+        font-size: 1.2rem;
+    }
+    .filter-container input {
+        width: 10rem;
+    }
+}
+
+@media (max-width: 550px) {
+    .card-container {
+        min-width: 8rem;
+        max-width: 10rem;
+        min-height: 10rem;
+    }
+}
